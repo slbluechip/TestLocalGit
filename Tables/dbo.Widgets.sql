@@ -1,7 +1,7 @@
 CREATE TABLE [dbo].[Widgets]
 (
 [RecordID] [int] NOT NULL IDENTITY(1, 1),
-[Description] [nvarchar] (201) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Description] [nvarchar] (320) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [SKU] [varchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
